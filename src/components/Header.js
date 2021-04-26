@@ -4,8 +4,8 @@ import {Container, Jumbotron} from 'react-bootstrap'
 const Header = () => {
     return (
           <Container fluid>
-          <Jumbotron  style={{backgroundImage:`radial-gradient(circle,blue, pink, purple)`}}>
-              <h1 className="text-light"> Hello, I'm Vinitha Kumar</h1>
+          <Jumbotron  style={{backgroundImage:`radial-gradient(circle,cyan,pink)`}}>
+              <h1> Hello, I'm Vinitha Kumar</h1>
               </Jumbotron>  
               </Container>
     )
