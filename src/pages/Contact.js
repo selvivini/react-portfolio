@@ -33,8 +33,7 @@ const Contact = () => {
 <Row>
     <div className="col-12">
     <h3 className="text-center">
-    {/* // eslint-disable-next-line */}
-    <a href= "https://drive.google.com/file/d/1KU5XuDQUou7xWSaADBvLIqiHt9t0oPt7/view?usp=sharing" target="_blank" download="resume" className="btn btn-danger m-2" rel="noreferrer"><i className="far fa-file-pdf m-2"></i>Resume</a>
+ <a href= "https://drive.google.com/file/d/1KU5XuDQUou7xWSaADBvLIqiHt9t0oPt7/view?usp=sharing" target="_blank" download="resume" className="btn btn-danger m-2" rel="noreferrer"><i className="far fa-file-pdf m-2"></i>Resume</a>
     <a href= "mailTo:selvivini@gmail.com" className="btn btn-danger m-2" target="_blank" rel="noreferrer"><i className="fa fa-envelope" ></i>Email</a>
     <a href= "https://github.com/selvivini" className="btn btn-danger"  target="_blank" rel="noreferrer"><i className="fab fa-github "></i>Github</a>
     <a href= "https://www.linkedin.com/in/vinitha-kumar-8255351b2/" target="_blank" className="btn btn-danger m-2"rel="noreferrer"><i className="fab fa-linkedin m-2"></i>Linkedin</a>
