@@ -12,9 +12,9 @@ const Portfolio = () => {
         <Row>
         {projects.map(project=>{
             return (<Col md={6} lg={4}>
-                <Card className="m-3" border="danger" style={{background: "#FFFDE7"}}>
+                <Card className="m-3 shadow rounded-0" border="danger"style={{background: "#FFFDE7"}}>
                     <Card.Body>
-                        <Card.Img src={project.image} height="200px"/>
+                        <Card.Img src={project.image} height="200px" />
                         <Card.Title className="text-danger">{project.name}</Card.Title>
                         <hr></hr>
                         <Card.Subtitle className= "text-primary">{project.description}</Card.Subtitle>

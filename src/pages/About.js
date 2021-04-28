@@ -6,7 +6,8 @@ import Footer from '../components/Footer'
 const About = () => {
     return (
         <>
-        <Header/>
+       
+        <Header />
         <Container>
             
         <Row>
