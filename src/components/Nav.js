@@ -9,7 +9,7 @@ const NavBar = () => {
 			<Navbar.Collapse id='basic-navbar-nav'>
                
 				<NavItem >
-					<NavLink  href='/' className = "active" >
+					<NavLink  href='#/' className = "active" >
 					  About
 					</NavLink>
 				</NavItem>
