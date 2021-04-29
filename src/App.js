@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -7,11 +7,13 @@ function App() {
 	return (
 		<div className='App'>
 			<HashRouter basename="/">
-				<Route exact path='/' component={About}  />
-				<Route  path='/about' component={About} />
-				<Route exact path='/portfolio' component={Portfolio} />
-                <Route exact path='/contact' component={Contact} />
-			</HashRouter>
+				<Switch>
+				<Route exact path='/' component={About}/>
+				<Route  path='/about' component={About}/>
+				<Route  path='/portfolio' component={Portfolio}/>
+                <Route  path='/contact' component={Contact} />
+				</Switch>
+				</HashRouter>
 		</div>
 	);
 }
