@@ -14,10 +14,10 @@ const NavBar = () => {
 					</NavLink>
 				</NavItem>
 				<NavItem>
-					<NavLink href='/#/#/portfolio'className = "active">Portfolio</NavLink>
+					<NavLink href='/#/portfolio'className = "active">Portfolio</NavLink>
 				</NavItem>
 				<NavItem>
-					<NavLink href='/#/#/contact' className = "active">Contact</NavLink>
+					<NavLink href='/#/contact' className = "active">Contact</NavLink>
 				</NavItem>
               
 			</Navbar.Collapse>
