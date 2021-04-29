@@ -4,7 +4,7 @@ import '../styles/nav.css';
 const NavBar = () => {
 	return (
 		<Navbar bg='light' expand='lg'>
-			<Navbar.Brand href='#home'>React-Portfolio</Navbar.Brand>
+			<Navbar.Brand href='#/'>React-Portfolio</Navbar.Brand>
 			<Navbar.Toggle aria-controls='basic-navbar-nav' />
 			<Navbar.Collapse id='basic-navbar-nav'>
                
