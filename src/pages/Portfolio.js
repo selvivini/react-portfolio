@@ -10,6 +10,7 @@ const Portfolio = () => {
      <Header/>  
     <Container>
         <Row>
+            {/* looping over the projects from projects.json file */}
         {projects.map(project=>{
             return (<Col md={6} lg={4}>
                 <Card className="m-3 shadow rounded-0" border="danger"style={{background: "#FFFDE7"}}>

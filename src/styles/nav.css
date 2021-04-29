@@ -1,3 +1,4 @@
+/* navigation styles when hovering and active */
 a.nav-link.active:active{
     color:white!important;
     background: darkblue!important;
