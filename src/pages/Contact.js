@@ -10,7 +10,7 @@ const Contact = () => {
          <Container >
              <Card className=" mb-3 border-info" style={{backgroundColor: "lavender"}}>
                  <Card.Body>
-            <h2 className="text-left text-dark">Contact</h2>
+            <h2 className="text-left text-dark">Contact<i class="far fa-address-card m-2 p-2 text-info"></i></h2>
             <hr/>
          <Form>
   <Form.Group controlId="formGroupEmail" >
@@ -33,10 +33,10 @@ const Contact = () => {
 <Row>
     <div className="col-12">
     <h3 className="text-center">
- <a href= "https://drive.google.com/file/d/1KU5XuDQUou7xWSaADBvLIqiHt9t0oPt7/view?usp=sharing" target="_blank" download="resume" className="btn btn-danger m-2" rel="noreferrer"><i className="far fa-file-pdf m-2"></i>Resume</a>
-    <a href= "mailTo:selvivini@gmail.com" className="btn btn-danger m-2" target="_blank" rel="noreferrer"><i className="fa fa-envelope" ></i>Email</a>
-    <a href= "https://github.com/selvivini" className="btn btn-danger"  target="_blank" rel="noreferrer"><i className="fab fa-github "></i>Github</a>
-    <a href= "https://www.linkedin.com/in/vinitha-kumar-8255351b2/" target="_blank" className="btn btn-danger m-2"rel="noreferrer"><i className="fab fa-linkedin m-2"></i>Linkedin</a>
+ <a href= "https://drive.google.com/file/d/1KU5XuDQUou7xWSaADBvLIqiHt9t0oPt7/view?usp=sharing" target="_blank" download="resume" className="btn btn-danger " rel="noreferrer"><i className="fab fa-linkedin-in m-1"></i>Resume</a>
+    <a href= "mailTo:selvivini@gmail.com" className="btn btn-danger m-2" target="_blank" rel="noreferrer"><i className="fa fa-envelope m-1" ></i>Email</a>
+    <a href= "https://github.com/selvivini" className="btn btn-danger"  target="_blank" rel="noreferrer"><i className="fab fa-github m-1"></i>Github</a>
+    <a href= "https://www.linkedin.com/in/vinitha-kumar-8255351b2/" target="_blank" className="btn btn-danger m-2"rel="noreferrer"><i className="fab fa-linkedin m-1"></i>Linkedin</a>
     </h3>
 </div>
 </Row>

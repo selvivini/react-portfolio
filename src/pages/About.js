@@ -13,10 +13,10 @@ const About = () => {
         <Row>
        
         <Col md= {9}>
-        <Card className = 'mb-3'>
-        <h5 >Biography</h5>
+        <Card className = 'mb-3 border-info'>
+        <h5 className="text-danger">Biography</h5>
         <Card.Body>
-        <Image alt= "profile" src= "images/Profile.JPG" height="150" width="150" thumbnail roundedCircle className="text-center img-fluid mx-auto d-block"/>
+        <Image alt= "profile" src= "images/Profile.JPG" height="150" width="150" thumbnail roundedCircle className="text-center img-fluid mx-auto d-block border-secondary"/>
         <p >
         Hi Everyone! My name is Vinitha, I am from India. I was graduated with the masters degree in Business administration from India. I started my career working for hsbc bank as a loan officer in the retail Assets processing team. Then soon after my marriage I moved to united States with my husband who is working as an IT consultant for USDA(Nitc) data center. I live in Overland Park, KS since 2011. I have a financial background and coding was entirely new to me. I developed interest towards writing web content when I started to do write some food blogs. I started working with wordpress(CMS). Then slowly I started learning web technologies like html and css. I didn’t get my work permit until 2015. So I started to work for an Indian software company in remote which is located in my home town where I was a part in developing some of their Ui portions for their clients.
        Slowly then I started with the basics of javascript  and learnt Javascript frameworks like Reactjs, Angularjs and mobile frameworks like Ionic and React Native. 
@@ -31,8 +31,8 @@ const About = () => {
         </Col>
       
         <Col md= {3}>
-        <Card className="mb-3">
-        <h5 >Skills</h5>
+        <Card className="mb-3 border-info" >
+        <h5 className="text-danger">Skills</h5>
  <ListGroup>
      <ListGroupItem>Html</ListGroupItem>
      <ListGroupItem className="list-group-item-dark">css</ListGroupItem>

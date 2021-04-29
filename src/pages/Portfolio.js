@@ -21,9 +21,9 @@ const Portfolio = () => {
                         <Card.Subtitle className= "text-primary">{project.description}</Card.Subtitle>
                         <Card.Text className= "text-info">{project.technologies}</Card.Text>
                         <Col>
-                        <a href={project.deployedLink} target="_blank"rel="noreferrer"><Button className="m-1" variant="success">Deployed Link</Button></a>
+                        <a href={project.deployedLink} target="_blank"rel="noreferrer"><Button className="m-1" variant="success"><i className="fas fa-link m-1"></i>Deployed Link</Button></a>
                         
-                       <a href={project.repository} target="_blank"rel="noreferrer"><Button variant="dark">GithubRepo</Button></a> 
+                       <a href={project.repository} target="_blank"rel="noreferrer"><Button variant="dark" className="m-1"><i className="fab fa-github m-1"></i>GithubRepo</Button></a> 
                         </Col>
                     </Card.Body>
                </Card>
