@@ -8,10 +8,10 @@ function App() {
 		<div className='App'>
 			<HashRouter basename="/">
 				<Switch>
-				<Route  path='/' component={About}/>
-				<Route  path='/about' component={About}/>
-				<Route  path='/portfolio' component={Portfolio}/>
-                <Route  path='/contact' component={Contact} />
+				<Route  path='/' exact component={About}/>
+				<Route  path='/about' exact component={About}/>
+				<Route  path='/portfolio'exact component={Portfolio}/>
+                <Route  path='/contact'exact component={Contact} />
 				</Switch>
 				</HashRouter>
 		</div>
