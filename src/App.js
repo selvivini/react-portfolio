@@ -6,9 +6,9 @@ import Contact from './pages/Contact';
 function App() {
 	return (
 		<div className='App'>
-			<HashRouter>
+			<HashRouter basename="/">
 				<Route exact path='/' component={About}  />
-				<Route exact path='/about' component={About} />
+				<Route  path='/about' component={About} />
 				<Route exact path='/portfolio' component={Portfolio} />
                 <Route exact path='/contact' component={Contact} />
 			</HashRouter>
