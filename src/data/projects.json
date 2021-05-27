@@ -2,9 +2,9 @@
   {
     "id": 10,
     "name": "Devlr v.02",
-    "image": "images/devlr2",
+    "image": "images/devlr2.PNG",
     "description": "Portfolio/networking site built as a mern stack",
-    "technologies": "Technologies used:Nodejs,express, mongodb,React, socket i.o, contextApi",
+    "technologies": "Technologies used:Nodejs,express,mongodb,React,socket i.o,contextApi",
     "deployedLink": "https://devlrapp.herokuapp.com",
    "repository": "https://github.com/brandyquinlan/devlr"
   },
